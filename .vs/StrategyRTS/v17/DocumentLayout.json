@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|c:\\users\\andreyka\\desktop\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\monogame\\strategyrts\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|c:\\users\\andreyka\\desktop\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\monogame\\strategyrts\\experemental\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|solutionrelative:experemental\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\controle\\keyboardcameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|solutionrelative:controle\\keyboardcameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\controle\\keyboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|solutionrelative:controle\\keyboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\controle\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|solutionrelative:controle\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\proceduralgeneration\\texturegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|solutionrelative:proceduralgeneration\\texturegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\proceduralgeneration\\noisesgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|solutionrelative:proceduralgeneration\\noisesgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\gameobjects\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF3DB119-A515-4340-9A0A-5DB1F6F493A7}|StrategyRTS.csproj|solutionrelative:gameobjects\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,75 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TextureGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\ProceduralGeneration\\TextureGenerator.cs",
-              "RelativeDocumentMoniker": "ProceduralGeneration\\TextureGenerator.cs",
-              "ToolTip": "C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\ProceduralGeneration\\TextureGenerator.cs",
-              "RelativeToolTip": "ProceduralGeneration\\TextureGenerator.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAIwBQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T17:23:38.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GameObject.cs",
-              "DocumentMoniker": "C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\GameObjects\\GameObject.cs",
-              "RelativeDocumentMoniker": "GameObjects\\GameObject.cs",
-              "ToolTip": "C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\GameObjects\\GameObject.cs",
-              "RelativeToolTip": "GameObjects\\GameObject.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T10:27:19.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\Controle\\BaseController.cs",
-              "RelativeDocumentMoniker": "Controle\\BaseController.cs",
-              "ToolTip": "C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\Controle\\BaseController.cs",
-              "RelativeToolTip": "Controle\\BaseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:56:25.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "KeyboardController.cs",
-              "DocumentMoniker": "C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\Controle\\KeyboardController.cs",
-              "RelativeDocumentMoniker": "Controle\\KeyboardController.cs",
-              "ToolTip": "C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\Controle\\KeyboardController.cs",
-              "RelativeToolTip": "Controle\\KeyboardController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T16:02:45.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "KeyboardCameraController.cs",
-              "DocumentMoniker": "C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\Controle\\KeyboardCameraController.cs",
-              "RelativeDocumentMoniker": "Controle\\KeyboardCameraController.cs",
-              "ToolTip": "C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\Controle\\KeyboardCameraController.cs",
-              "RelativeToolTip": "Controle\\KeyboardCameraController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:56:15.334Z"
             },
             {
               "$type": "Document",
@@ -120,35 +28,14 @@
               "RelativeDocumentMoniker": "Game1.cs",
               "ToolTip": "C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAADwvzIAAAASAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:52:59.159Z",
+              "WhenOpened": "2024-05-23T14:21:40.013Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Map.cs",
-              "DocumentMoniker": "C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\Experemental\\Map.cs",
-              "RelativeDocumentMoniker": "Experemental\\Map.cs",
-              "ToolTip": "C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\Experemental\\Map.cs",
-              "RelativeToolTip": "Experemental\\Map.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAABsAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T16:03:35.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NoisesGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\ProceduralGeneration\\NoisesGenerator.cs",
-              "RelativeDocumentMoniker": "ProceduralGeneration\\NoisesGenerator.cs",
-              "ToolTip": "C:\\Users\\Andreyka\\Desktop\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0438\u0433\u0440\\MonoGame\\StrategyRTS\\ProceduralGeneration\\NoisesGenerator.cs",
-              "RelativeToolTip": "ProceduralGeneration\\NoisesGenerator.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAQwGYAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T16:03:08.766Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

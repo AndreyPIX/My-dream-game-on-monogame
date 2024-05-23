@@ -1,12 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using StrategyRTS.AnimationClasses;
 using StrategyRTS.Experemental;
-using StrategyRTS.Experemental.Controle;
 using StrategyRTS.GameObjects;
 using StrategyRTS.Shared;
-using System;
 
 namespace StrategyRTS
 {
@@ -15,19 +12,13 @@ namespace StrategyRTS
 		private GraphicsDeviceManager graphics;
 		private SpriteBatch spriteBatch;
 
-		private Map map;
-
 		private Texture2D textureWater;
 		private Texture2D textureSand;
 		private Texture2D textureGrass;
 		private Texture2D textureStone;
 		private Texture2D textureRock;
 
-		private GameObject water;
-		private GameObject sand;
-		private GameObject grass;
-		private GameObject stone;
-		private GameObject rock;
+		private GameEngine engine;
 
 		public Game1()
 		{
@@ -40,19 +31,28 @@ namespace StrategyRTS
 		protected override void Initialize()
 		{
 			base.Initialize();
+			
+			engine = new GameEngine();
 
-			water = new GameObject(textureWater);
-			sand = new GameObject(textureSand);
-			grass = new GameObject(textureGrass);
-			stone = new GameObject(textureStone);
-			rock = new GameObject(textureRock);
-
-			map = new Map(256*4, 256 * 4);
+			GameObject water = new GameObject(textureWater);
+			GameObject sand = new GameObject(textureSand);
+			GameObject grass = new GameObject(textureGrass);
+			GameObject stone = new GameObject(textureStone);
+			GameObject rock = new GameObject(textureRock);
+			
+			Map map = new Map(256*4, 256 * 4);
 			map.Scale = 0.1f;
 			map.AddCell(water);
 			map.AddCell(grass);
 			map.AddCell(rock);
 			map.CreateNoiseMap(256 * 4, 256 * 4, 8);
+
+			engine.Add(water);
+			engine.Add(sand);
+			engine.Add(grass);
+			engine.Add(stone);
+			engine.Add(rock);
+			engine.Add(map);
 		}
 		protected override void LoadContent()
 		{
@@ -74,7 +74,7 @@ namespace StrategyRTS
 		{
 			GraphicsDevice.Clear(Color.Black);
 			spriteBatch.Begin();
-			map.Draw(spriteBatch);
+			engine.Draw(spriteBatch);
 			spriteBatch.End();
 			base.Draw(gameTime);
 		}

@@ -50,3 +50,4 @@ C:\Users\Andreyka\Desktop\Разработка игр\MonoGame\StrategyRTS\bin\D
 C:\Users\Andreyka\Desktop\Разработка игр\MonoGame\StrategyRTS\bin\Debug\net6.0-windows\Content\png\Relief\Stone.xnb
 C:\Users\Andreyka\Desktop\Разработка игр\MonoGame\StrategyRTS\bin\Debug\net6.0-windows\Content\png\Relief\ThirdLayer.xnb
 C:\Users\Andreyka\Desktop\Разработка игр\MonoGame\StrategyRTS\bin\Debug\net6.0-windows\Content\png\Relief\Water.xnb
+C:\Users\Andreyka\Desktop\Разработка игр\MonoGame\StrategyRTS\obj\Debug\net6.0-windows\StrategyRTS.sourcelink.json
