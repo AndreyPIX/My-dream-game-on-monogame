@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Land/MeadowGrass.png</File>
+    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Land/MetalOre.png</File>
+    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Land/Sand.png</File>
+    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Land/Stone.png</File>
+    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/FirstLayer.png</File>
+    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/Grass.png</File>
+    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/Rock.png</File>
+    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/Sand.png</File>
+    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/SecondLayer.png</File>
+    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/Stone.png</File>
+    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/ThirdLayer.png</File>
+    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/Water.png</File>
+    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Unit/TankCommander/TankCommander.png</File>
+    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Unit/Various/CommanderTurret.png</File>
+    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/UserInterface/Frame.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
