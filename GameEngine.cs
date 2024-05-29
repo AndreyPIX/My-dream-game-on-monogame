@@ -1,40 +1,35 @@
-﻿using Microsoft.Xna.Framework;
+﻿
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using SharpDX.XInput;
 using StrategyRTS.Controle;
-using StrategyRTS.Experemental;
 using StrategyRTS.GameObjects;
 using StrategyRTS.Menagers;
 using System.Collections.Generic;
+using System.Reflection.Metadata.Ecma335;
 
 namespace StrategyRTS
 {
-	public class GameEngine : BaseManager<GameObject>
+    public class GameEngine : BaseManager<GameObject>
 	{
-		protected List<Map> maps;
-
+		private List<BaseController> controllers;
 		public GameEngine() : base()
 		{
-			maps = new List<Map>();
-		}
-
-		public void Add(Map map)
-		{
-			maps.Add(map);
+			controllers = new List<BaseController>();
 		}
 
 		public override void Update(GameTime gameTime)
 		{
 			base.Update(gameTime);
-		}
+            foreach (var item in controllers)
+            {
+				item.Update(gameTime);
+            }
+        }
 
 		public override void Draw(SpriteBatch spriteBatch)
 		{
 			base.Draw(spriteBatch);
-
-			foreach (Map map in maps)
-			{
-				map.Draw(spriteBatch);
-			}
 		}
 	}
 }

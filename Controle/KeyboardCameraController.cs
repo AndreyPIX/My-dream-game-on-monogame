@@ -5,7 +5,6 @@ namespace StrategyRTS.Controle
 {
 	public class KeyboardCameraController : KeyboardController
 	{
-
 		protected override void ProcessKeyAction(Keys key)
 		{
 			Vector2 delta = new Vector2(0);
@@ -27,7 +26,7 @@ namespace StrategyRTS.Controle
 					delta.Y = speed;
 					break;
 			}
-			puppetMap.Displacement(delta);
+			puppet.Move(delta);
 		}
 	}
 }

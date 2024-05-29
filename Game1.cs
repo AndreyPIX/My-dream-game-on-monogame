@@ -39,6 +39,7 @@ namespace StrategyRTS
 		{
 			if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
 				Exit();
+			engine.Update(gameTime);
 			base.Update(gameTime);
 		}
 		protected override void Draw(GameTime gameTime)

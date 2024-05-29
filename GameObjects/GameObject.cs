@@ -1,38 +1,31 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using System;
 
 namespace StrategyRTS.GameObjects
 {
     public class GameObject
     {
-        protected Texture2D texture;
-
-        protected Vector2 position;
-
+		protected Rectangle? sourseRentangle;
+		protected Texture2D texture;
+		protected Vector2 position;
         protected Vector2 velocity;
+		protected Vector2 origin;
+		protected Vector2 scale;
+		protected float angle;
+		protected float rotationVelocity;
 
-        protected Rectangle? sourseRentangle;
-
-        protected float angle;
-        public float Angle
-        {
-            get { return angle; }
-        }
-
-        protected float rotationVelocity;
-
-        protected Vector2 origin;
-
-        protected Vector2 scale;
-        public Vector2 Scale 
-        {
-            set
-            {
-                scale = value;
-            }
-        }
-
+		public Vector2 Scale
+		{
+			set
+			{
+				scale = value;
+			}
+		}
+		public float Angle
+		{
+			get { return angle; }
+		}
+		
         public GameObject()
         {
             position = new Vector2(0);
@@ -54,7 +47,6 @@ namespace StrategyRTS.GameObjects
         {
             this.position = position;
         }
-
 		public virtual void Update(GameTime gameTime) 
         {
 
