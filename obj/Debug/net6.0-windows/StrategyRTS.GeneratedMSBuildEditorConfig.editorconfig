@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StrategyRTS
-build_property.ProjectDir = D:\Visual Studio 2010\ПИ-131\Анюхин Андрей\game\My-dream-game-on-monogame\
+build_property.ProjectDir = D:\Visual Studio 2010\ПИ-131\Анюхин Андрей\game monogame\My-dream-game-on-monogame\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

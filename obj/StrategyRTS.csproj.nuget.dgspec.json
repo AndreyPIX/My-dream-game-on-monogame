@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game\\My-dream-game-on-monogame\\StrategyRTS.csproj": {}
+    "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game monogame\\My-dream-game-on-monogame\\StrategyRTS.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game\\My-dream-game-on-monogame\\StrategyRTS.csproj": {
+    "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game monogame\\My-dream-game-on-monogame\\StrategyRTS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game\\My-dream-game-on-monogame\\StrategyRTS.csproj",
+        "projectUniqueName": "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game monogame\\My-dream-game-on-monogame\\StrategyRTS.csproj",
         "projectName": "StrategyRTS",
-        "projectPath": "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game\\My-dream-game-on-monogame\\StrategyRTS.csproj",
+        "projectPath": "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game monogame\\My-dream-game-on-monogame\\StrategyRTS.csproj",
         "packagesPath": "C:\\Users\\группа\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game\\My-dream-game-on-monogame\\obj\\",
+        "outputPath": "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game monogame\\My-dream-game-on-monogame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\группа\\AppData\\Roaming\\NuGet\\NuGet.Config",

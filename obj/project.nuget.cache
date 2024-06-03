@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WTOFrsavWHJ4RLPG68AqXR5Gf2wJc7d5Zu4IBGo0PADCYUnlY5ilHjZ/Lg5sY7lhPrZ5wMOYc5CdwL9ztpAV9g==",
+  "dgSpecHash": "F7h67m5EZe8ciVi9L97xdkVx5k6/V5L7r1yTFleibPPataJ4RB6b3LiH+MyfqkRxwdzkjDJW8xg/0PWkfa35TQ==",
   "success": true,
-  "projectFilePath": "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game\\My-dream-game-on-monogame\\StrategyRTS.csproj",
+  "projectFilePath": "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game monogame\\My-dream-game-on-monogame\\StrategyRTS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\группа\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\группа\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",

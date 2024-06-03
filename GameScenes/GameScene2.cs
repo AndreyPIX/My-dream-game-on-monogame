@@ -9,14 +9,16 @@ namespace StrategyRTS.GameScenes
 {
     public class GameScene2 : GameSceneBase
     {
-        Map map;
+        GameObject map;
         public GameScene2(GameEngine engine, GraphicsDeviceManager graphics) : base(engine, graphics)
         {
-
+            
         }
         public override void Initialize()
         {
+            map = new GameObject();
 
+            
         }
         public override void LoadContent(ContentManager content)
         {
