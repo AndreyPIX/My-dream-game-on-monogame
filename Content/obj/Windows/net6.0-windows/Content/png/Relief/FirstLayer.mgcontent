@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/FirstLayer.png</SourceFile>
-  <SourceTime>2024-05-13T19:41:50.0556734+05:00</SourceTime>
-  <DestFile>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/bin/Windows/Content/png/Relief/FirstLayer.xnb</DestFile>
-  <DestTime>2024-05-14T17:27:54.4338611+05:00</DestTime>
+  <SourceFile>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/png/Relief/FirstLayer.png</SourceFile>
+  <SourceTime>2024-06-03T08:54:29.6737255+05:00</SourceTime>
+  <DestFile>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/bin/Windows/Content/png/Relief/FirstLayer.xnb</DestFile>
+  <DestTime>2024-06-03T08:56:27.9158917+05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T16:44:56+05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

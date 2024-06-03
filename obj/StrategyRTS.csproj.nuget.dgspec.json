@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andreyka\\Desktop\\Разработка игр\\MonoGame\\StrategyRTS\\StrategyRTS.csproj": {}
+    "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game\\My-dream-game-on-monogame\\StrategyRTS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andreyka\\Desktop\\Разработка игр\\MonoGame\\StrategyRTS\\StrategyRTS.csproj": {
+    "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game\\My-dream-game-on-monogame\\StrategyRTS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andreyka\\Desktop\\Разработка игр\\MonoGame\\StrategyRTS\\StrategyRTS.csproj",
+        "projectUniqueName": "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game\\My-dream-game-on-monogame\\StrategyRTS.csproj",
         "projectName": "StrategyRTS",
-        "projectPath": "C:\\Users\\Andreyka\\Desktop\\Разработка игр\\MonoGame\\StrategyRTS\\StrategyRTS.csproj",
-        "packagesPath": "C:\\Users\\Andreyka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andreyka\\Desktop\\Разработка игр\\MonoGame\\StrategyRTS\\obj\\",
+        "projectPath": "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game\\My-dream-game-on-monogame\\StrategyRTS.csproj",
+        "packagesPath": "C:\\Users\\группа\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio 2010\\ПИ-131\\Анюхин Андрей\\game\\My-dream-game-on-monogame\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Andrew\\Programs\\Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Andreyka\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\группа\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -34,9 +34,9 @@ namespace StrategyRTS
 			{
 				for (int j = 0; j <  colliders.Count; j++)
 				{
-					bool hasCollison = 
+					/*bool hasCollison = 
 					if (i == j) continue;
-					if (HasCol)
+					if (HasCol)*/
 				}
 			}
 		}

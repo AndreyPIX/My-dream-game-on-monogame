@@ -1,7 +1,7 @@
 ﻿
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StrategyRTS.GameObjects;
-using System.Drawing;
 
 namespace StrategyRTS.Colliders
 {

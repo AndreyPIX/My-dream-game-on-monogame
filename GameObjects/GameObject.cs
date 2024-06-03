@@ -25,6 +25,10 @@ namespace StrategyRTS.GameObjects
 				return collider;
 			}
 		}
+		public Texture2D Texture
+        {
+			get { return texture; }
+		}
 		public Vector2 LastMove
 		{
 			get { return lastMove; }

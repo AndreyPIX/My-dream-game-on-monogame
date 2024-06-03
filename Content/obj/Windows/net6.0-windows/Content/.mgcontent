@@ -4,21 +4,21 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Land/MeadowGrass.png</File>
-    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Land/MetalOre.png</File>
-    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Land/Sand.png</File>
-    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Land/Stone.png</File>
-    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/FirstLayer.png</File>
-    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/Grass.png</File>
-    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/Rock.png</File>
-    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/Sand.png</File>
-    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/SecondLayer.png</File>
-    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/Stone.png</File>
-    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/ThirdLayer.png</File>
-    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Relief/Water.png</File>
-    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Unit/TankCommander/TankCommander.png</File>
-    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/Unit/Various/CommanderTurret.png</File>
-    <File>C:/Users/Andreyka/Desktop/Разработка игр/MonoGame/StrategyRTS/Content/png/UserInterface/Frame.png</File>
+    <File>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/png/Land/MeadowGrass.png</File>
+    <File>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/png/Land/MetalOre.png</File>
+    <File>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/png/Land/Sand.png</File>
+    <File>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/png/Land/Stone.png</File>
+    <File>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/png/Relief/FirstLayer.png</File>
+    <File>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/png/Relief/Grass.png</File>
+    <File>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/png/Relief/Rock.png</File>
+    <File>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/png/Relief/Sand.png</File>
+    <File>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/png/Relief/SecondLayer.png</File>
+    <File>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/png/Relief/Stone.png</File>
+    <File>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/png/Relief/ThirdLayer.png</File>
+    <File>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/png/Relief/Water.png</File>
+    <File>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/png/Unit/TankCommander/TankCommander.png</File>
+    <File>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/png/Unit/Various/CommanderTurret.png</File>
+    <File>D:/Visual Studio 2010/ПИ-131/Анюхин Андрей/game/My-dream-game-on-monogame/Content/png/UserInterface/Frame.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
