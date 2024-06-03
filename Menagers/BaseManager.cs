@@ -13,25 +13,19 @@ namespace StrategyRTS.Menagers
 		{
 			list = new List<T>();
 		}
-		public void Add(T obj)
+		public virtual void Add(T obj)
 		{
 			list.Add(obj);
 		}
-
 		public virtual void Update(GameTime gameTime)
 		{
 			foreach (var item in list)
-			{
 				item.Update(gameTime);
-			}
 		}
-
 		public virtual void Draw(SpriteBatch spriteBatch)
 		{
 			foreach (var item in list)
-			{
 				item.Draw(spriteBatch);
-			}
 		}
 	}
 }

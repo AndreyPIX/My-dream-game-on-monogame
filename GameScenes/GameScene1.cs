@@ -1,6 +1,8 @@
-﻿using Microsoft.Xna.Framework;
+﻿
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using StrategyRTS.Controle;
 using StrategyRTS.GameObjects;
 
 namespace StrategyRTS.GameScenes
@@ -12,12 +14,10 @@ namespace StrategyRTS.GameScenes
 		private Texture2D textureGrass;
 		private Texture2D textureStone;
 		private Texture2D textureRock;
-
-		public GameScene1(GameEngine engine) : base(engine)
+		public GameScene1(GameEngine engine, GraphicsDeviceManager graphics) : base(engine, graphics)
 		{
 
 		}
-
 		public override void Initialize()
 		{
 			GameObject water = new GameObject(textureWater);
@@ -26,8 +26,8 @@ namespace StrategyRTS.GameScenes
 			GameObject stone = new GameObject(textureStone);
 			GameObject rock = new GameObject(textureRock);
 
-			Map map = new();
-			map.Scale = new Vector2(0.01f);
+			Map map = new(graphics);
+			map.Scale = new Vector2(0.4f);
 			map.SetSizeMap(256 * 2, 256 * 2);
 			map.AddCell(water);
 			map.AddCell(sand);
@@ -35,7 +35,11 @@ namespace StrategyRTS.GameScenes
 			map.AddCell(rock);
 			map.CreateMap(7);
 
+			KeyboardCameraController CameraControlle = new KeyboardCameraController(new KeyboardLayoutCameraControle());
+			CameraControlle.Attach(map);
+
 			engine.Add(map);
+			engine.Add(CameraControlle);
 		}
 		public override void LoadContent(ContentManager content)
 		{

@@ -1,12 +1,16 @@
-﻿using Microsoft.Xna.Framework;
+﻿
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using StrategyRTS.Colliders;
 
 namespace StrategyRTS.GameObjects
 {
     public class GameObject
     {
+		protected BaseCollider collider;
 		protected Rectangle? sourseRentangle;
 		protected Texture2D texture;
+		protected Vector2 lastMove;
 		protected Vector2 position;
         protected Vector2 velocity;
 		protected Vector2 origin;
@@ -14,8 +18,30 @@ namespace StrategyRTS.GameObjects
 		protected float angle;
 		protected float rotationVelocity;
 
+		public BaseCollider Collider
+		{
+			get
+			{
+				return collider;
+			}
+		}
+		public Vector2 LastMove
+		{
+			get { return lastMove; }
+		}
+		public Vector2 Position
+        {
+            get
+            {
+                return position;
+            }
+        }
 		public Vector2 Scale
 		{
+            get
+            {
+                return scale;
+            }
 			set
 			{
 				scale = value;
@@ -25,8 +51,15 @@ namespace StrategyRTS.GameObjects
 		{
 			get { return angle; }
 		}
-		
-        public GameObject()
+		public bool HasCollider
+		{
+			get
+			{
+				return collider != null;
+			}
+		}
+
+		public GameObject()
         {
             position = new Vector2(0);
             sourseRentangle = null;

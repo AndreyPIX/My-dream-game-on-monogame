@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StrategyRTS.Shared;
 
@@ -18,7 +19,6 @@ namespace StrategyRTS.ProceduralGeneration
             texture.SetData(pixels);
             return texture;
         }
-
         public static Texture2D CreateTextureWhiteNoise(int height, int width, int extension)
         {
             float[,] noise = NoisesGenerator.GenerateWhiteNoise(height, width, extension);

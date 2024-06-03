@@ -1,8 +1,8 @@
-﻿using Microsoft.Xna.Framework;
+﻿
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
 using StrategyRTS.GameObjects;
-using System.ComponentModel;
+
 namespace StrategyRTS.AnimationClasses
 {
     public class Animation : GameObject

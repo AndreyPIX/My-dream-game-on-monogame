@@ -1,16 +1,42 @@
-﻿using Microsoft.Xna.Framework;
+﻿
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using SharpDX.Direct3D9;
 using StrategyRTS.ProceduralGeneration;
 using System.Collections.Generic;
+
 namespace StrategyRTS.GameObjects
 {
     public class Map : GameObject
     {
+		private GraphicsDeviceManager graphics;
+		private Vector2 SetPositionMapCenter
+		{
+			get
+			{
+				float x = graphics.PreferredBackBufferWidth / 2 - size * map.GetLength(1) * scale.X / 2;
+				float y = graphics.PreferredBackBufferHeight / 2 - size * map.GetLength(0) * scale.Y / 2;
+				return new Vector2(x, y);
+			}
+		}
 		private List<GameObject> list = new List<GameObject>();
+		private int minRenderingX;
+		private int minRenderingY;
+		private int maxRenderingX;
+		private int maxRenderingY;
 		private int size = 256;
         private int[,,] map;
-
+		public int Height
+		{
+			get { return (int)(map.GetLength(0) * size * scale.Y); }
+		}
+		public int Width
+		{
+			get { return (int)(map.GetLength(1) * size * scale.X); }
+		}
+		public Map(GraphicsDeviceManager graphics)
+		{
+			this.graphics = graphics;
+		}
 		public void LoadMap(int[,] map)
 		{
 			this.map = new int[map.GetLength(0), map.GetLength(1), 2];
@@ -26,6 +52,10 @@ namespace StrategyRTS.GameObjects
 				}
 			}
 		}
+		public void SetPosition()
+		{
+			position = SetPositionMapCenter;
+		}
         public void SetSizeMap(int width, int height)
         {
             map = new int[height, width, 2]; // 0 - индекс хранит глубину, второй хранит индекс текстуры
@@ -34,108 +64,52 @@ namespace StrategyRTS.GameObjects
         {
             list.Add(gameObjects);
         }
-        private void LayerGenerate(int countOctaves)
-        {
-			float[,] noise = NoisesGenerator.GeneratePerlinNoiseBilinearlyInterpolated(map.GetLength(0), map.GetLength(1), countOctaves);
-			for (int y = 0; y < map.GetLength(0); y++)
-			{
-				for (int x = 0; x < map.GetLength(1); x++)
-				{
-					if (noise[y, x] < 0.34)
-						map[y, x, 0] = 0;
-					else if (noise[y, x] < 0.6)
-						map[y, x, 0] = 1;
-					else
-						map[y, x, 0] = 2;
-				}
-			}
-		}
-		private void Smoothing(int changingLayer, int changeLayer)
-		{
-			int[,,] tempMap = map;
-			for (int y = 0; y < map.GetLength(0); y++)
-			{
-				for (int x = 0; x < map.GetLength(1); x++)
-				{
-					if (map[y, x, 0] == changingLayer)
-					{
-						int countCell = 0;
-						if (x - 1 != -1 && map[y, x - 1, 0] == changeLayer)
-							countCell += 1;
-						if (x + 1 != map.GetLength(1) && map[y, x + 1, 0] == changeLayer)
-							countCell += 1;
-						if (y - 1 != -1 && map[y - 1, x, 0] == changeLayer)
-							countCell += 1;
-						if (y + 1 != map.GetLength(0) && map[y + 1, x, 0] == changeLayer)
-							countCell += 1;
-						if (countCell > 2)
-							tempMap[y, x, 0] = changeLayer;
-					}
-				}
-			}
-			map = tempMap;
-		}
-		private void ShoreGeneration()
-        {
-			for (int y = 0; y < map.GetLength(0); y++)
-			{
-				for (int x = 0; x < map.GetLength(1); x++)
-				{
-					if (map[y, x, 1] != 0 && map[y, x, 1] != 3)
-					{
-						for (int y0 = -1; y0 < 2; y0++)
-						{
-							if (y + y0 == -1)
-								continue;
-							else if (y + y0 == map.GetLength(0))
-								continue;
-							for (int x0 = -1; x0 < 2; x0++)
-							{
-								if (x + x0 == -1)
-									continue;
-								else if (x + x0 == map.GetLength(1))
-									continue;
-								if (map[y + y0, x + x0, 1] == 0)
-								{
-									map[y, x, 1] = 1;
-									break;
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-		private void Superimposition()
-		{
-			for (int y = 0; y < map.GetLength(0); y++)
-			{
-				for (int x = 0; x < map.GetLength(1); x++)
-				{
-					if (map[y, x, 0] == 0)
-						map[y, x, 1] = 0; // вода
-					else if (map[y, x, 0] == 1)
-						map[y, x, 1] = 2; // трава
-					else
-						map[y, x, 1] = 3; // скала
-				}
-			}
-		}
 		public void CreateMap(int countOctaves = 5)
         {
-			LayerGenerate(countOctaves);
-			Smoothing(1, 0);
-			Smoothing(0, 1);
-			Smoothing(2, 1);
-			Smoothing(1, 2);
-			Superimposition();
-			ShoreGeneration();
+			GeneratorWorld world = new GeneratorWorld(map);
+			map = world.LayerGenerate(countOctaves);
+			map = world.Smoothing(1, 0);
+			map = world.Smoothing(0, 1);
+			map = world.Smoothing(2, 1);
+			map = world.Smoothing(1, 2);
+			map = world.Superimposition();
+			map = world.ShoreGeneration();
+			position = new Vector2(-156, -156);
+			//SetPosition();
 		}
-        public override void Draw(SpriteBatch spriteBatch)
+		private void Rendering() 
+		{
+			minRenderingX = (int)((0 - position.X) / size);
+			minRenderingY = (int)((0 - position.Y) / size);
+			maxRenderingX = (int)((graphics.PreferredBackBufferWidth - position.X) / (size * scale.X) + 1);
+			maxRenderingY = (int)((graphics.PreferredBackBufferHeight - position.Y) / (size * scale.Y) + 1);
+
+			if (minRenderingY < 0)
+				minRenderingY = 0;
+			else if (minRenderingY > map.GetLength(0))
+				minRenderingY = map.GetLength(0) - 1;
+
+			if (maxRenderingY < 0)
+				maxRenderingY = 0;
+			else if (maxRenderingY > map.GetLength(0))
+				maxRenderingY = map.GetLength(0) - 1;
+
+			if (minRenderingX < 0)
+				minRenderingX = 0;
+			else if (minRenderingX > map.GetLength(0))
+				minRenderingX = map.GetLength(1) - 1;
+
+			if (maxRenderingX < 0)
+				maxRenderingX = 0;
+			else if (maxRenderingX > map.GetLength(0))
+				maxRenderingX = map.GetLength(1) - 1;
+		}
+		public override void Draw(SpriteBatch spriteBatch)
         {
-            for (int y = 0; y < map.GetLength(0); y++)
+			Rendering();
+			for (int y = minRenderingY; y < maxRenderingY; y++)
             {
-                for (int x = 0; x < map.GetLength(1); x++)
+				for (int x = minRenderingX; x < maxRenderingX; x++)
                 {
                     list[map[y, x, 1]].SetPosition(new Vector2(scale.X * size * x + position.X, scale.Y * size * y + position.Y));
                     list[map[y, x, 1]].Scale = scale;

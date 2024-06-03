@@ -1,11 +1,7 @@
-﻿using Microsoft.Xna.Framework;
+﻿
 using SharpDX;
 using StrategyRTS.GameMath;
 using System;
-using System.DirectoryServices.ActiveDirectory;
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
-using System.Xml;
 
 namespace StrategyRTS.ProceduralGeneration
 {

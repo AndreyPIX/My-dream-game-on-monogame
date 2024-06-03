@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
 namespace StrategyRTS.Controle
@@ -9,6 +10,10 @@ namespace StrategyRTS.Controle
 		public KeyboardController()
 		{
 			layout = new KeyboardLayout();
+		}
+		public KeyboardController(KeyboardLayout layout)
+		{
+			this.layout = layout;
 		}
 		protected virtual void ProcessKeyAction(Keys key)
 		{

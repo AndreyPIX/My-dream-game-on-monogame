@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StrategyRTS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b99a4e684de56ad33b1f024c436a2e14fe433ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b95d61c2fbd74ca95e7ab356008b3f8593b61fb3")]
 [assembly: System.Reflection.AssemblyProductAttribute("StrategyRTS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StrategyRTS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,4 @@
 ﻿
-using Microsoft.Xna.Framework;
-
 namespace StrategyRTS.GameMath
 {
 	public class BilinearInterpolation

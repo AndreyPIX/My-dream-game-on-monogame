@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using StrategyRTS.GameScenes;
@@ -10,10 +11,8 @@ namespace StrategyRTS
 	{
 		private GraphicsDeviceManager graphics;
 		private SpriteBatch spriteBatch;
-
 		private GameEngine engine;
 		private GameScene1 gameScene1;
-
 		public Game1()
 		{
 			graphics = new GraphicsDeviceManager(this);
@@ -25,7 +24,7 @@ namespace StrategyRTS
 		protected override void Initialize()
 		{
 			engine = new GameEngine();
-			gameScene1 = new GameScene1(engine);
+			gameScene1 = new GameScene1(engine, graphics);
 			base.Initialize();
 			gameScene1.Initialize();
 		}

@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework.Input;
+﻿
+using Microsoft.Xna.Framework.Input;
 
 namespace StrategyRTS.Controle
 {
@@ -6,10 +7,10 @@ namespace StrategyRTS.Controle
 	{
 		public KeyboardLayoutCameraControle()
 		{
-			AddBind(Keys.A, EnumKeyAction.MoveLeft);
-			AddBind(Keys.W, EnumKeyAction.MoveUp);
-			AddBind(Keys.D, EnumKeyAction.MoveRight);
-			AddBind(Keys.S, EnumKeyAction.MoveDown);
+			AddBind(Keys.Left, EnumKeyAction.MoveLeft);
+			AddBind(Keys.Up, EnumKeyAction.MoveUp);
+			AddBind(Keys.Right, EnumKeyAction.MoveRight);
+			AddBind(Keys.Down, EnumKeyAction.MoveDown);
 		}
 	}
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework.Input;
+﻿
+using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 
 namespace StrategyRTS.Controle
@@ -13,25 +14,17 @@ namespace StrategyRTS.Controle
 		public void AddBind(Keys key, EnumKeyAction keyAction)
 		{
 			if (dictionary.ContainsKey(key))
-			{
 				dictionary[key] = keyAction;
-			}
 			else
-			{
 				dictionary.Add(key, keyAction);
-			}
 		}
 		public EnumKeyAction GetActionForKey(Keys k)
 		{
 			EnumKeyAction keyAction;
 			if (dictionary.ContainsKey(k))
-			{
 				keyAction = dictionary[k];
-			}
 			else
-			{
 				keyAction = EnumKeyAction.None;
-			}
 			return keyAction;
 		}
 	}
